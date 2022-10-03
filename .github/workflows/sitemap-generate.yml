@@ -20,6 +20,7 @@ jobs:
       uses: cicirello/generate-sitemap@v1
       with:
         base-url-path: https://snyt45.com/
+        include-pdf: false
 
     - name: Output stats
       run: |
